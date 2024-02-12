@@ -1,0 +1,36 @@
+.empty-cart-container {
+    display: flex;
+    justify-content: center;
+    background-image: url('../../resources/images/splatter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+}
+
+.empty-cart-title {
+    text-align: center;
+    font-size: 40px;
+    width: 50%;
+    margin:0;
+    margin-left: 25%;
+}
+
+.empty-cart-text {
+    text-align: center;
+    font-size: 30px;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+
+.empty-cart-title,
+.empty-cart-text {
+    font-family: var(--main-font);
+    text-shadow: var(--light-shadow);
+    color: var(--white);
+} 

@@ -1,0 +1,14 @@
+.order-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.order-item-label,
+.order-item-price {
+    font-family: var(--main-font);
+    text-shadow: var(--light-shadow);
+    font-size: 25px;
+}

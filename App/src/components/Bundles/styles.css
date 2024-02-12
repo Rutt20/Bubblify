@@ -1,0 +1,14 @@
+.bundles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.bundles-title {
+    font-family: var(--main-font);
+    text-shadow: var(--light-shadow);
+    color: var(--white);
+    font-size: 50px;
+}

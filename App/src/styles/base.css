@@ -1,0 +1,40 @@
+* {box-sizing: border-box;}
+
+html,
+body, #root,.App{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+@font-face {
+    font-family: "BubbleFont";   /*Can be any text*/
+    src: local("FrekleFace"),
+      url("../resources/font/FreckleFace-Regular.ttf") format("truetype");
+}
+
+:root {
+    --main-font: 'BubbleFont';
+    --light-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    --bubble-shadow:-6px -6px 4px rgba(0, 0, 0, 0.25), inset -10px -10px 4px rgba(0, 0, 0, 0.25);
+    --inner-shadow: inset -10px -10px 4px rgba(0, 0, 0, 0.25);
+    --outside-shadow: -6px -6px 4px rgba(0, 0, 0, 0.25);
+    --white: #FFFFFF;
+    --black: #000000;
+    --main-pink:  #FFD6EA;
+    --dark-pink: #C69FB2;
+    --light-gray: #EFEFEF;
+    --medium-gray: #D5D5D5;
+    --invalid-red: #B40000;
+}
+
+.container {
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    top:10%;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0,0,0,0.4);
+}

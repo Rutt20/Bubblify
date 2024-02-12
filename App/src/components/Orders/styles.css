@@ -1,0 +1,36 @@
+.previous-order-container {
+    width:90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-top: 1px solid black;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.previous-order-title {
+    margin: 0;
+    text-align: center;
+}
+
+.previous-order-button {
+    font-size: 20px;
+    border: none;
+    background-color: var(--main-pink);
+    box-shadow: var(--light-shadow);
+    padding: 4%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.previous-order-button:hover {
+    background-color: var(--dark-pink);
+    color: var(--white);
+}
+
+.previous-order-title,
+.previous-order-button {
+    font-family: var(--main-font);
+    text-shadow: var(--light-shadow);
+}

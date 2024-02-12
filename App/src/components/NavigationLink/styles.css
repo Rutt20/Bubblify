@@ -1,0 +1,16 @@
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link a {
+  text-decoration: none;
+  text-shadow: var(--light-shadow);
+  color: white;
+}
+
+#cart-icon {
+  height: 50px;
+  align-self: flex-end;
+  filter: drop-shadow(var(--light-shadow));
+}

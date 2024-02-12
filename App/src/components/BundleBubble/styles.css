@@ -1,0 +1,42 @@
+.bundle-bubble-container {
+    background-color: var(--main-pink);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: var(--bubble-shadow);
+    position: absolute;
+}
+
+.bundle-bubble-container:nth-child(1) {
+    top:0;
+    left: 10px;
+}
+
+.bundle-bubble-container:nth-child(2) {
+    top:0;
+    left: 280px;
+}
+
+.bundle-bubble-container:nth-child(3) {
+    top:180px;
+    left: 150px;
+}
+
+.bundle-bubble-highlight {
+    background-color: var(--white);
+    width: 20px;
+    height: 100px;
+    border-radius: 50%;
+    rotate: 45deg;
+    position: absolute;
+    left: 19%;
+}
+
+.bundle-bubble-title {
+    font-family: var(--main-font);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: center;
+    padding-top:30%;
+}

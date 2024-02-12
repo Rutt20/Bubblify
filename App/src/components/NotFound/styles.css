@@ -1,0 +1,43 @@
+.notfound-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../resources/images/splatter.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    filter: drop-shadow(var(--light-shadow));
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.notfound-title {
+    font-size: 50px;
+    text-align: center;
+    color: var(--white);
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+.notfound-button {
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--light-shadow);
+    width: 30%;
+    margin-left: 35%;
+    padding: 1%;
+}  
+
+.notfound-button a{
+    font-size: 35px;
+    text-decoration: none;
+    color: var(--black);
+}  
+
+
+.notfound-title,
+.notfound-button a {
+    font-family: var(--main-font);
+    text-shadow: var(--light-shadow);
+}

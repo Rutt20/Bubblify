@@ -1,0 +1,23 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.label-input {
+    font-family: var(--main-font);
+    text-shadow: var(--light-shadow);
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+.input-style {
+    border: 1px solid  var(--medium-gray);
+    border-radius: 5px;
+    width: 100%;
+    padding: 3%;
+    font-size: 20px;
+}
+
+/**/

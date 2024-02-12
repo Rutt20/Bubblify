@@ -1,0 +1,25 @@
+.list-wrapper {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: var(--light-gray);
+}
+
+.list-title-container {
+    background-color: var(--white);
+    width: 100%;
+    justify-content: center;
+    box-shadow: var(--light-shadow);
+    margin-bottom: 2%;
+}
+
+.list-title {
+    font-family: var(--main-font);
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: var(--main-pink);
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}

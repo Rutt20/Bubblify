@@ -1,0 +1,33 @@
+.delivery-content {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.delivery-text {
+    font-size: 25px;
+    margin-right: 5%;
+    font-family: var(--main-font);
+    text-shadow: var(--light-shadow);
+}
+
+.delivery-checkbox {
+    transform: scale(2);
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.invalid,
+.invalid:focus {
+    border: 1px solid var(--invalid-red);
+    color: var(--invalid-red);
+}
+
+.error {
+    margin-left: 5%;
+    color:red;
+}
